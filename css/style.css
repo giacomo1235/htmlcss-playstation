@@ -16,3 +16,14 @@
     height: 700px;
     background-position: 50% 15%;
 } 
+
+.bg-grey {
+    background-color: rgb(75%, 74%, 73%);
+}
+.bg-blue {
+    background-color: rgb(9%, 11%, 22%);
+}
+
+footer {
+    background-color: rgb(10%, 26%, 59%);
+}
