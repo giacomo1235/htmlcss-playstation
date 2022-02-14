@@ -7,3 +7,6 @@
     background-position: 50% 15%;
 } 
 
+.cards .col-6 img{
+    border-radius: 60px;
+}
