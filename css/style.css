@@ -1,3 +1,9 @@
 .btn {
     border-radius: 60px;
 }
+.jumbotron1 {
+    background-image: url(../img/jumbo-bg.png);
+    height: 600px;
+    background-position: 50% 15%;
+} 
+
