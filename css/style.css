@@ -1,12 +1,12 @@
 .btn {
     border-radius: 60px;
 }
-.jumbotron1 {
+.jumbotron {
     background-image: url(../img/jumbo-bg.png);
     height: 600px;
     background-position: 50% 15%;
 } 
 
 .cards .col-6 img{
-    border-radius: 60px;
+    border-radius: 20px;
 }
