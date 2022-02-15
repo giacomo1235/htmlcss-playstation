@@ -92,9 +92,6 @@ footer {
     color: rgb(19%, 43%, 79%);
 }
 
-.dropdown-toggle.show .viewed {
-    display:none;
-}
 .disappear {
     display: inline-block;
     transform: rotate(0);
