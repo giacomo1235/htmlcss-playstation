@@ -15,6 +15,10 @@
     border-radius: 20px;
 }
 
+.active_border:active {
+    border: 2px solid blue;
+}
+
 .jumbotron3 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     height: 700px;
@@ -53,9 +57,13 @@ footer {
     box-shadow: 20px 20px 50px black;
 }
 
-dropdown-item:hover {
+.box_shadow:hover {
 
     background-color: transparent;
     box-shadow: 0px 0px 7px black;
 }
 
+.color_blue:hover {
+    background-color: transparent;
+    color: blue;
+}
