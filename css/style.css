@@ -35,9 +35,12 @@ footer {
 }
 .move_up {
     transition: all linear .2s;
+    border: 3px solid transparent !important;
+    padding: 2px;
 }
 .move_up:hover
 {
+    border: 3px solid blue !important;
  transform: translateY(-10px);
  box-shadow: 20px 20px 50px grey;
 }
@@ -73,6 +76,8 @@ footer {
     border-radius: 30px;
 }
 
+
+
 .btn-danger:hover {
     color: #fff;
     background-color: rgb(80%, 27%, 29%);
@@ -90,7 +95,7 @@ footer {
 .dropdown-toggle.show .viewed {
     display:none;
 }
-.scompari {
+.disappear {
     display: inline-block;
     transform: rotate(0);
     transition: transform linear .3s;
@@ -99,7 +104,7 @@ footer {
 
 
 
-.dropdown-toggle.show .scompari {
+.dropdown-toggle.show .disappear {
     display: inline-block;
     transform: rotate(180deg);
     filter: grayscale(0);
@@ -110,3 +115,47 @@ footer {
     opacity: .8;
 }
 
+.hover_border_blue {
+    padding: 1px;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    transition: border linear .2s ;
+}
+ .hover_border_blue:hover {
+    padding: 1px;
+    border: 3px solid rgb(19%, 43%, 80%);
+    border-radius: 30px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(19%, 43%, 80%);
+    border-color: rgb(19%, 43%, 80%);
+}
+
+.hover_border_light {
+    padding: 1px;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    transition: border linear .2s ;
+}
+ .hover_border_light:hover {
+    padding: 1px;
+    border: 3px solid rgb(97%, 98%, 98%);
+    border-radius: 30px;
+}
+
+.btn-light:hover {
+    background-color: rgb(97%, 98%, 98%);
+    border-color: rgb(97%, 98%, 98%);
+}
+
+.blue_border_hover {
+    border: 3px solid transparent;
+    transition: border linear .2s;
+    border-radius: 30px;
+}
+
+.blue_border_hover:hover {
+    border: 3px solid blue;
+}
