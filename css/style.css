@@ -4,8 +4,12 @@
 .inline_list {
     margin-right: 2rem;
 }
+.discs {
+    list-style: disc;
+}
 ::marker {
     color: blue; 
+
 }
 
 .dropdown-menu {
@@ -100,7 +104,10 @@ footer {
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(19%, 43%, 79%);
-    
+}
+
+.navbar-light .navbar-nav .nav-link:hover .disappear{
+    filter: grayscale(0);
 }
 .navbar-light .navbar-nav .nav-link.show {
     color: rgb(19%, 43%, 79%);
