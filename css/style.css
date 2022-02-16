@@ -1,6 +1,13 @@
 .btn {
     border-radius: 60px;
 }
+.inline_list {
+    margin-right: 2rem;
+}
+::marker {
+    color: blue; 
+}
+
 .jumbotron {
     background-image: url(../img/jumbo-bg.png);
     height: 600px;
@@ -87,7 +94,10 @@ footer {
 .dropdown-toggle::after {
     display: none;
 }
-
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(19%, 43%, 79%);
+    
+}
 .navbar-light .navbar-nav .nav-link.show {
     color: rgb(19%, 43%, 79%);
 }
