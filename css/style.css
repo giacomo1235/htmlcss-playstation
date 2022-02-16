@@ -177,3 +177,7 @@ footer {
 .blue_border_hover:hover {
     border: 3px solid blue;
 }
+
+#navbarScroll {
+    width: 100%;
+}
