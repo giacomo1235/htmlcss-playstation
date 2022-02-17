@@ -1,12 +1,19 @@
 .btn {
     border-radius: 60px;
 }
+
+#navbarScroll {
+    width: 100%;
+}
+
 .inline_list {
     margin-right: 2rem;
 }
+
 .discs {
     list-style: disc;
 }
+
 ::marker {
     color: blue; 
 
@@ -30,8 +37,6 @@
     border-radius: 20px;
 }
 
-
-
 .jumbotron3 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     height: 700px;
@@ -41,6 +46,7 @@
 .bg-grey {
     background-color: rgb(75%, 74%, 73%);
 }
+
 .bg-blue {
     background-color: rgb(9%, 11%, 22%);
 }
@@ -48,11 +54,13 @@
 footer {
     background-color: rgb(10%, 26%, 59%);
 }
+/* hover effects */
 .move_up {
     transition: all linear .2s;
     border: 3px solid transparent !important;
     padding: 2px;
 }
+
 .move_up:hover
 {
     border: 3px solid blue !important;
@@ -79,19 +87,19 @@ footer {
     background-color: transparent;
     color: blue;
 }
+
 .hover_border_red {
     padding: 1px;
     border: 3px solid transparent;
     border-radius: 30px;
     transition: border linear .2s ;
 }
- .hover_border_red:hover {
+
+.hover_border_red:hover {
     padding: 1px;
     border: 3px solid rgb(80%, 27%, 29%);
     border-radius: 30px;
 }
-
-
 
 .btn-danger:hover {
     color: #fff;
@@ -102,6 +110,7 @@ footer {
 .dropdown-toggle::after {
     display: none;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(19%, 43%, 79%);
 }
@@ -109,6 +118,7 @@ footer {
 .navbar-light .navbar-nav .nav-link:hover .disappear{
     filter: grayscale(0);
 }
+
 .navbar-light .navbar-nav .nav-link.show {
     color: rgb(19%, 43%, 79%);
 }
@@ -119,8 +129,6 @@ footer {
     transition: transform linear .3s;
     filter: grayscale(1);
 }
-
-
 
 .dropdown-toggle.show .disappear {
     display: inline-block;
@@ -177,7 +185,4 @@ footer {
 .blue_border_hover:hover {
     border: 3px solid blue;
 }
-
-#navbarScroll {
-    width: 100%;
-}
+/* / hover effects */
