@@ -13,6 +13,7 @@
 .discs {
     list-style: disc;
 }
+/* https://youtu.be/dQw4w9WgXcQ */
 
 ::marker {
     color: blue; 
@@ -30,7 +31,7 @@
 } 
 
 .cards img{
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .card {
